@@ -1,0 +1,20 @@
+.skill-content{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 400px 400px;
+    gap: 30px;
+}
+
+.skill-content>div{
+    background-color: #d92cf9;
+    border-radius: 5px;
+    min-width: 30px;
+    text-align:center;
+    margin: none;
+}
+
+.skill-content>div>p{
+    font-size: 18px;
+    color: white;
+}
