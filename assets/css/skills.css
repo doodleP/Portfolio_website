@@ -2,16 +2,18 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: 400px 400px;
+    grid-template-columns: minmax(auto, 400px) minmax(auto, 400px);
     gap: 30px;
+    margin: 10px;
 }
 
 .skill-content>div{
+    display: flex;
+    justify-content: center;
     background-color: #d92cf9;
     border-radius: 5px;
     min-width: 30px;
     text-align:center;
-    margin: none;
 }
 
 .skill-content>div>p{
